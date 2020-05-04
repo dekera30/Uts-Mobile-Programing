@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             final String username= txtusername.getText().toString();
             final String pass = txtpassword.getText().toString();
 
-            if (username.equals("ni kadek sri erawati") && pass.equals("18101163")) {
+            if (username.equals("18101163") && pass.equals("18101163")) {
                 //jika login berhasil
                 Toast.makeText(getApplicationContext(), "LOGIN SUKSES",
                         Toast.LENGTH_SHORT).show();
