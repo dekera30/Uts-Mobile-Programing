@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="40dp">
+
+
+
+    <TextView
+        android:text="LOGIN FORM"
+        android:layout_width="207dp"
+        android:layout_height="59dp"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteY="34dp"
+        tools:layout_editor_absoluteX="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/txtusername"
+        android:layout_marginTop="140dp"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:hint="Masukkan Username"
+        android:textColor="#000"
+        android:textColorHint="#999"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtpassword"
+        android:layout_marginTop="240dp"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:hint="Masukkan Password"
+        android:textColor="#000"
+        android:textColorHint="#999"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="350dp"
+        android:id="@+id/btnlogin"
+        android:layout_gravity="center"
+        android:onClick="checkLogin"/>
+
+
+</RelativeLayout>

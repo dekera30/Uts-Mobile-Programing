@@ -1,0 +1,2 @@
+rootProject.name='utsmobile'
+include ':app'
